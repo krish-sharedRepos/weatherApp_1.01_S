@@ -22,4 +22,6 @@ A weather application that allows users to search for weather information based 
    ```bash
    git clone https://github.com/your-username/weather-app.git
 
-2. npm i
+2. npm package installation
+   ```bash
+   npm i
