@@ -20,13 +20,13 @@ export default function Weatherchart({celsiusMode,data }) {
               name: 'High Temperature',
               label: 'Max Temperature',
               data: highTemps,
-              color: '#FF5733', // Customize color for high temperature
+              color: '#FF5733',
             },
             {
               name: 'Low Temperature',
               label:' Min Temperature',
               data: lowTemps,
-              color: '#33A1FF', // Customize color for low temperature
+              color: '#33A1FF',
             },
           ]}
           

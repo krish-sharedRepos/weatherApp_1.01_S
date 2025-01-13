@@ -134,7 +134,7 @@ const ClimateView = ({handleUnitChange,country,name,desc,temp,iconCode,humidity,
                 </div>
                 
             </Box>
-            {/* Snackbar for Location Issue */}
+            {/* Location Issue */}
             <Snackbar open={showSnackbar} autoHideDuration={3000} onClose={() => setShowSnackbar(false)}>
                 <Alert onClose={() => setShowSnackbar(false)} severity="error" sx={{ width: "100%" }}>
                 {locationError || coordError}

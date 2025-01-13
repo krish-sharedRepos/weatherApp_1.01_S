@@ -20,7 +20,7 @@ const DataBlocks = ({data,parameter}) =>{
         icon = <MdVisibility size={50} color="aquamarine" />;
         break;
       default:
-        icon = null; // Handle unexpected cases
+        icon = null;
     }    
     
     return(
